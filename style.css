@@ -11,6 +11,5 @@ header{
 #logo_nome{
   display: flex;
   justify-content: space-between;
-  height: auto;
   width: 200px;
 }
