@@ -4,7 +4,7 @@ body{
 
 #cabecalho{
   background-color:rgb(224, 194, 110)
-  position: absolute;
+  position: relative;
   width: 100%;
   height: auto;
   top: 50px;
