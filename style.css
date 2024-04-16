@@ -15,7 +15,7 @@ header{
   align-items: center;
   width: 40%;
   height: 100%;
-  background-color: red;
+  outline: solid 2px red;
 }
 nav{
   display: flex;
@@ -23,5 +23,5 @@ nav{
   align-items: center;
   width: 30%;
   height: 100%;
-  background-color: blue;
+  outline: solid 2px blue;
 }
