@@ -1,17 +1,17 @@
 body{
-  background:rgb(23, 22, 20)
+  background:rgb(23, 22, 20);
 }
 
 header{
   display: flex;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
   height: 80px;
   background-color:rgb(224, 194, 110);
 }
 #logo_nome{
   display: flex;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
   width: 200px;
 }
