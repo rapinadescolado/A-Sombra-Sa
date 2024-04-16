@@ -3,7 +3,11 @@ body{
 }
 
 footer{
+  display: flex;
+  justify-content: space-between
+  height: 80px;
   background-color:rgb(224, 194, 110);
-  width: 100vh;
-  height: auto;
+}
+#logo_nome{
+  display: flex;
 }
