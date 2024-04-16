@@ -5,11 +5,13 @@ body{
 header{
   display: flex;
   justify-content: space-between;
+  align-items: center
   height: 80px;
   background-color:rgb(224, 194, 110);
 }
 #logo_nome{
   display: flex;
   justify-content: space-between;
+  align-items: center
   width: 200px;
 }
