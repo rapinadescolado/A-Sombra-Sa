@@ -4,10 +4,13 @@ body{
 
 footer{
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
   height: 80px;
   background-color:rgb(224, 194, 110);
 }
 #logo_nome{
   display: flex;
+  justify-content: space-between;
+  height: auto;
+  width: 200px;
 }
