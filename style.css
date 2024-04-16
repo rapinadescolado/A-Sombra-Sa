@@ -2,7 +2,7 @@ body{
   background:rgb(23, 22, 20)
 }
 
-footer{
+header{
   display: flex;
   justify-content: space-between;
   height: 80px;
