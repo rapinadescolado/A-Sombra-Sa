@@ -21,7 +21,7 @@ header{
   outline: solid 2px blue;
 }
 #logo{
-  height: 100%;
+  width: 10vh;
 }
 #ass{
   width: 100%;
