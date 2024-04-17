@@ -22,6 +22,9 @@ header{
 #logo{
   max-height: 100%;
 }
+#ass{
+  max-height: 100%;
+}
 
 nav{
   position: relative;
