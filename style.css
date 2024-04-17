@@ -9,7 +9,8 @@ header{
   height: 80px;
   background-color:rgb(224, 194, 110);
 }
-#logo_nome{
+
+#logo_div{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,6 +18,9 @@ header{
   height: 100%;
   outline: solid 2px red;
 }
+#logo{
+}
+
 nav{
   display: flex;
   justify-content: space-between;
