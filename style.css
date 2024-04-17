@@ -19,6 +19,7 @@ header{
   outline: solid 2px red;
 }
 #logo{
+  max-heith: 100%;
 }
 
 nav{
