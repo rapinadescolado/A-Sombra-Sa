@@ -11,15 +11,16 @@ header{
 }
 
 #logo_div{
+  position: relative;
+  left: 10px;
   display: flex;
-  justify-content: center;
   align-items: center;
   width: 40%;
   height: 100%;
   outline: solid 2px blue;
 }
 #logo{
-  max-height: 100%;
+  max-width: 100%;
 }
 
 nav{
