@@ -16,15 +16,15 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 30%;
-  height: 100%;
+  width: 35%;
+  height: 85%;
   outline: solid 2px blue;
 }
 #logo{
-  height: 85%;;
+  height: 100%;;
 }
 #ass{
-  width: 90%;
+  width: 100%;
   max-height: 100%;
 }
 
