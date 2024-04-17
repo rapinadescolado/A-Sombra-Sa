@@ -15,7 +15,7 @@ header{
   left: 10px;
   display: flex;
   align-items: center;
-  width: 40%;
+  width: 35%;
   height: 100%;
   outline: solid 2px blue;
 }
@@ -24,10 +24,12 @@ header{
 }
 
 nav{
+  position: relative;
+  right: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 30%;
+  width: 40%;
   height: 100%;
   outline: solid 2px blue;
 }
