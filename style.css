@@ -23,7 +23,7 @@ header{
 }
 .logo{
   height: 100%;
-  outline: solid 2px red
+  outline: solid 2px red;
 }
 
 nav{
