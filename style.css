@@ -20,10 +20,7 @@ header{
   height: 70px;
   outline: solid 3px blue;
 }
-#logo{
-  height: 100%;
-}
-#text_logo{
+.logo{
   height: 100%;
 }
 
