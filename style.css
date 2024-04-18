@@ -41,7 +41,7 @@ nav{
 /* MOBILE */
 @media only screen and (max-width: 479px){
   #logo_div{width:74.5px;}
-  #logo_nome{display:none}
+  #logo_text{display:none}
 }
 
 
