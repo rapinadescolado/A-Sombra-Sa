@@ -4,6 +4,9 @@ body{
 
 
 header{
+  position: absolute;
+  left: 0px;
+  up: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,7 +27,10 @@ header{
   height: 100%;
   outline: solid 2px red;
 }
-#text_logo{position: relative; left: 10px;}
+#text_logo{
+  position: relative;
+  left: 10px;
+}
 
 nav{
   position: relative;
