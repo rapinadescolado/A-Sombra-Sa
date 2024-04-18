@@ -18,7 +18,7 @@ header{
   align-items: center;
   width: 350px;
   height: 70px;
-  outline-color: solid 3px blue;
+  outline: solid 3px blue;
 }
 #logo{
   height: 100%;
