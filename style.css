@@ -15,6 +15,7 @@ header{
 #logo_div{
   position: relative;
   left: 10px;
+  opacity: 0%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,10 +26,6 @@ header{
 .logo{
   height: 100%;
   outline: solid 2px red;
-}
-#text_logo{
-  position: relative;
-  left: 10px;
 }
 
 nav{
