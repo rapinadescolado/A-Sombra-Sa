@@ -19,10 +19,11 @@ header{
   align-items: center;
   width: 350px;
   height: 70px;
-  outline: solid 3px blue;
+  outline: solid 2px blue;
 }
 .logo{
   height: 100%;
+  outline: solid 2px red
 }
 
 nav{
