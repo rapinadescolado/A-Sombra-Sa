@@ -7,6 +7,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100vh;
   height: 80px;
   background-color:rgb(224, 194, 110);
 }
@@ -37,7 +38,6 @@ nav{
 
 /* MOBILE */
 @media only screen and (max-width: 479px){
-  header{width: 100vh;}
   #logo_div{width: 74.5px;}
   #logo_text{display: none;}
 }
