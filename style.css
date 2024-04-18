@@ -13,6 +13,7 @@ header{
 
 #logo_div{
   position: relative;
+  opacity: 0%;
   left: 10px;
   display: flex;
   align-items: center;
@@ -22,10 +23,6 @@ header{
 }
 .logo{
   height: 100%;
-}
-.logo a button{
-  width: 100%;
-  opacity: 0%;
 }
 
 nav{
