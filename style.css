@@ -25,6 +25,7 @@ header{
   height: 100%;
   outline: solid 2px red;
 }
+#text_logo{position: relative; left: 10px;}
 
 nav{
   position: relative;
