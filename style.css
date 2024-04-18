@@ -15,17 +15,16 @@ header{
   position: relative;
   left: 10px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 35%;
-  height: 85%;
+  width: 350px;
+  height: 70px;
+  outline-color: solid 2px blue;
 }
 #logo{
   height: 100%;
 }
-#ass{
-  width: 100%;
-  max-height: 100%;
+#logo_text{
+  height: 100%;
 }
 
 nav{
@@ -35,25 +34,27 @@ nav{
   justify-content: space-between;
   align-items: center;
   width: 40%;
-  height: 85%;
+  height: 70px;
 }
 
 
 /* MOBILE */
-    @media only screen and (max-width: 479px){
-    }
+@media only screen and (max-width: 479px){
+  #logo_div{width:74.5px;}
+  #logo{display:none}
+}
 
 
 /* MOBILE Landscape */ 
-    @media only screen and (min-width: 480px) and (max-width: 767px){	
-    }
+@media only screen and (min-width: 480px) and (max-width: 767px){
+}
 
 
 /* TABLET */
-    @media only screen and (min-width: 768px) and (max-width: 833px) {
-    }
+@media only screen and (min-width: 768px) and (max-width: 833px){
+}
 
 
 /* TABLET Landscape */ 
-    @media only screen and (min-width: 834px) and (max-width: 1024px) {
-    }
+@media only screen and (min-width: 834px) and (max-width: 1024px){
+}
