@@ -50,7 +50,11 @@ nav{
 @media only screen and (max-width: 479px){
   #logo_div{width: 74.5px;}
   #text_logo{display: none;}
-  #navbttn{display: block;}
+  #navbttn{
+    display: block;
+    border: solid 4px rpg(147, 133, 94);
+    border-radius: 10px;
+  }
 }
 
 
