@@ -52,7 +52,7 @@ nav{
   #text_logo{display: none;}
   #navbttn{
     display: block;
-    border: solid 4px rpg(147, 133, 94);
+    border: solid 4px rgb(147, 133, 94);
     border-radius: 10px;
   }
 }
