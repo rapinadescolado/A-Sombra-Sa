@@ -45,9 +45,13 @@ nav{
   height: 70px;
 }
 
-/* //////////////////// */
+/* ////////////////////////////// */
 
-
+/* Main */
+main{
+  position: absolute;
+  left: 40px;
+}
 
 
 /* RESPONSIVE WEB */
