@@ -17,7 +17,7 @@ header{
   position: relative;
   left: 10px;
   display: flex;
-  justify-content: spacebetween;
+  justify-content: space-between;
   align-items: center;
   width: 350px;
   height: 70px;
