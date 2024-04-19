@@ -16,7 +16,6 @@ header{
 #logo_div{
   position: relative;
   left: 10px;
-  opacity: 0%;
   display: flex;
   justify-content: space-between;
   align-items: center;
