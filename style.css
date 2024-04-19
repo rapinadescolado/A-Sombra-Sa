@@ -21,11 +21,9 @@ header{
   align-items: center;
   width: 350px;
   height: 70px;
-  outline: solid 2px blue;
 }
 .logo{
   height: 100%;
-  outline: solid 2px red;
 }
 #bttn_logo{
   position: absolute;
@@ -33,8 +31,7 @@ header{
   top: 0px;
   width: 100%;
   height: 100%;
-  opacity: 50%;
-  outline: solid 2px green;
+  opacity: 0%;
 }
 
 nav{
