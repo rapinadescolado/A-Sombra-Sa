@@ -47,7 +47,6 @@ main{
   position: absolute;
   left: 40px;
   width: 51%;
-  height: auto;
   outline-color: 2px solid blue;
 }
 
