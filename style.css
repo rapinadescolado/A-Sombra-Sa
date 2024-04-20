@@ -46,7 +46,7 @@ main{
   width: 51%;
   height: auto;
   color: white;
-  outline: solid 2px red;
+  outline-color: solid 2px red;
 }
 
 
