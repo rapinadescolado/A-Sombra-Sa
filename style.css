@@ -20,7 +20,7 @@ header{
   justify-content: space-between;
   align-items: center;
   width: 350px;
-  height: 70px;
+  height: 45px;
 }
 .logo{
   height: 100%;
@@ -34,7 +34,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   width: 40%;
-  height: 70px;
+  height: 45px;
 }
 
 /* ////////////////////////////// */
