@@ -1,0 +1,16 @@
+/* RESPONSIVE WEB */
+/* MOBILE */
+@media only screen and (max-width: 479px){
+  #logo_div{width: 74.5px;}
+  #text_logo{display: none;}
+  #navbttn{
+    display: block;
+    border: solid 4px rgb(147, 133, 94);
+    border-radius: 10px;
+  }
+}
+
+
+/* MOBILE Landscape */ 
+@media only screen and (min-width: 480px) and (max-width: 767px){
+}
