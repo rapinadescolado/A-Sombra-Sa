@@ -3,7 +3,6 @@ body{
 }
 
 
-
 /* HEADER */
 header{
   display: flex;
@@ -13,9 +12,11 @@ header{
   background-color:rgb(224, 194, 110);
 }
 
-#logo_div{
+header a {
   position: relative;
   left: 10px;
+}
+#logo_div{
   display: flex;
   justify-content: space-between;
   align-items: center;
