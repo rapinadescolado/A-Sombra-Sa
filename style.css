@@ -53,8 +53,6 @@ main{
 }
 
 #oque_e{
-  position: relative;
-  display: flex;
   width: 100%;
   height: 620px;
   color: white;
@@ -67,16 +65,13 @@ main{
 }
 #oque_e h1{
   position: absolute;
-  width: 74%;
+  width: 51%;
 }
 #oque_e #p1{
-  position: absolute;
-  top: 20px;
   width: 74%;
 }
 #oque_e #p2{
-  position: absolute;
-  top: 100px;
+  width: 74%;
 }
 
 
