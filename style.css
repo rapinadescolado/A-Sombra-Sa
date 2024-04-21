@@ -3,6 +3,7 @@ body{
   flex-direction: column;
   width: 100%;
   height: auto;
+  margin: 0px;
   background:rgb(23, 22, 20);
 }
 
