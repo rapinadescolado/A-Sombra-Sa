@@ -47,6 +47,7 @@ nav{
 /* Main */
 main{
   position: absolute;
+  top: 160px;
   left: 40px;
   width: 51%;
   outline-color: 2px solid blue;
