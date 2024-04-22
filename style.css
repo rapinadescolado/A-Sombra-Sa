@@ -53,16 +53,19 @@ nav{
 main{
   position: absolute;
   top: 100px;
-  left: 40px;
-  width: 51%;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60vw;
   border: solid var(--bg_d1) 10px;
   background-color: var(--bg_d1);
 }
 
 #oque_e{
-  width: 100%;
-  height: 620px;
-  outline-bottom: solid var(--primary) 2px;
+  width: 90%;
+  height: 562px;
+  border-bottom: solid var(--primary) 2px;
 }
 #oque_e #img1{
   position: absolute;
