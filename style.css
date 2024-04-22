@@ -18,7 +18,7 @@ header{
   align-items: center;
   width: 100vw;
   height: 60px;
-  background-color:rgb(--primary);
+  background-color: var(--primary);
 }
 
 header a{
@@ -56,11 +56,13 @@ main{
   left: 40px;
   width: 51%;
   border: solid var(--bg_d1) 10px;
+  background-color: solid var(--bg_d1) 10px;
 }
 
 #oque_e{
   width: 100%;
   height: 620px;
+  outline-bottom: solid var(--primary) 2px;
 }
 #oque_e #img1{
   position: absolute;
