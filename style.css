@@ -57,7 +57,7 @@ main{
   left: 40px;
   width: 51%;
   border: solid var(--bg_d1) 10px;
-  background-color: solid var(--bg_d1) 10px;
+  background: var(--bg_d1);
 }
 
 #oque_e{
