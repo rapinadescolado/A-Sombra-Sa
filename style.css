@@ -4,7 +4,7 @@ body{
   width: 100%;
   height: auto;
   margin: 0px;
-  background:rgb(23, 22, 20);
+  background: var(--bg);
 }
 
 
@@ -18,7 +18,7 @@ header{
   align-items: center;
   width: 100vw;
   height: 60px;
-  background-color:rgb(224, 194, 110);
+  background-color:rgb(--primary);
 }
 
 header a{
@@ -55,6 +55,7 @@ main{
   top: 100px;
   left: 40px;
   width: 51%;
+  border: solid var(--bg_d1) 10px;
 }
 
 #oque_e{
