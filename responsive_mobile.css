@@ -1,8 +1,12 @@
 /* RESPONSIVE WEB */
 /* MOBILE */
 @media only screen and (max-width: 479px){
+  /* HEADER */
   #logo_div{width: 48px;}
   #text_logo{display: none;}
+
+
+  /* Main */
 }
 
 
