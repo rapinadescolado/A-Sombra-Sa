@@ -5,9 +5,9 @@ h1, h2, h3, h4, h5, h6, p{
 :root{
   --primary: rgb(224, 194, 110); /* #E0C26E */
   --primary_d1: rgb(147, 133, 94); /* #93855E */
-  --primary_d2: rgb();
-  --secondary: rgb();
-  --secondary_d1: rgb();
-  --bg: rgb();
-  --bg_d1: rgb();
+  --primary_d2: rgb(83, 76, 40); /* #534C28 */
+  --secondary: rgb(); /* # */
+  --secondary_d1: rgb(); /* # */
+  --bg: rgb(); /* # */
+  --bg_d1: rgb(); /* # */
 }
