@@ -12,3 +12,7 @@ h1, h2, h3, h4, h5, h6, main p{
   --bg: rgb(23, 22, 20); /* #171614 */
   --bg_d1: rgb(16, 15, 13); /* #100f0d */
 }
+
+strong{
+  color: var(--secondary);
+}
