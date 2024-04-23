@@ -11,6 +11,8 @@
     align-self: center;
     width: 80vw;
   }
+  /* Aside */
+  aside{display: none;}
 }
 
 
