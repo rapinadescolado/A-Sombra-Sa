@@ -75,11 +75,12 @@ main{
   width: 21%;
 }
 #oque_e h1{
+  font-family: "Courier New", Courier, monospace;
   position: absolute;
   top: 0px;
   left: 0px;
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   word-spacing: 7px;
   width: 76%;
 }
