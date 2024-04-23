@@ -91,6 +91,18 @@ main{
   width: 76%;
 }
 
+/* ////////////////////////////// */
+
+/* ASIDE */
+
+aside{
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  width: 40vw;
+  height: 100vh;
+  background-color: var(--primary_d1)
+}
 
 /* TABLET */
 @media only screen and (min-width: 768px) and (max-width: 833px){
