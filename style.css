@@ -10,7 +10,7 @@ body{
 
 /* HEADER */
 header{
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   display: flex;
@@ -96,7 +96,7 @@ main{
 /* ASIDE */
 
 aside{
-  position: absolute;
+  position: fixed;
   top: 60px;
   right: 0px;
   width: 40vw;
