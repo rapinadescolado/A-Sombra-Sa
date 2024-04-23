@@ -14,6 +14,7 @@ header{
   top: 0px;
   left: 0px;
   display: flex;
+  order: 1;
   justify-content: space-between;
   align-items: center;
   width: 100vw;
@@ -54,6 +55,7 @@ main{
   position: absolute;
   top: 100px;
   display: flex;
+  order: 2;
   flex-direction: column;
   align-items: center;
   width: 60vw;
@@ -105,13 +107,4 @@ aside{
   width: 40vw;
   height: 100vh;
   background-color: var(--primary_d1);
-}
-
-/* TABLET */
-@media only screen and (min-width: 768px) and (max-width: 833px){
-}
-
-
-/* TABLET Landscape */ 
-@media only screen and (min-width: 834px) and (max-width: 1024px){
 }
