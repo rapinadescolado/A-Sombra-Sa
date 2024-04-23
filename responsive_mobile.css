@@ -8,6 +8,7 @@
 
   /* Main */
   main{
+    align-self: center;
     width: 80vw;
   }
 }
