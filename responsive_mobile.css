@@ -2,7 +2,7 @@
 /* MOBILE */
 @media only screen and (max-width: 479px){
   /* Base */
-
+  
 
   /* HEADER */
   #logo_div{width: 48px;}
@@ -13,6 +13,7 @@
   main{
     align-self: center;
     width: 80vw;
+    font-size: 0.8em;
   }
   /* ASIDE */
   aside{display: none;}
