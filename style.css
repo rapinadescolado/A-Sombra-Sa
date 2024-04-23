@@ -71,16 +71,24 @@ main{
   position: absolute;
   right: 0px;
   top: 0px;
-  width: 22%;
+  width: 21%;
 }
 #oque_e h1{
-  width: 51%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  font-size: 18px;
+  word-spacing: 5px;
+  width: 76%;
 }
 #oque_e #p1{
-  width: 74%;
+  text-align: justify;
+  width: 76%;
 }
 #oque_e #p2{
-  width: 74%;
+  text-align: justify;
+  width: 76%;
 }
 
 
