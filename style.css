@@ -20,6 +20,7 @@ header{
   width: 100vw;
   height: 60px;
   background-color: var(--primary);
+  z-index: 5;
 }
 
 header a{
