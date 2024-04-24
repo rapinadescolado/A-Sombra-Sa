@@ -1,15 +1,23 @@
-body{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  margin: 0px;
-  background: var(--bg);
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  list-style: none !important;
 }
 
-
-/* HEADER */
-header{
+body {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  overflow-x: hidden;
+  position: relative;
+}
+body header {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -22,24 +30,21 @@ header{
   background-color: var(--primary);
   z-index: 5;
 }
-
-header a{
+body header a {
   position: relative;
-  left: 10px;
+  left: 50px;
 }
-#logo_div{
+body header a #logo_div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 232px;
   height: 45px;
 }
-.logo{
+body header a #logo_div .logo {
   height: 100%;
 }
-
-/* NAV */
-nav{
+body header nav {
   position: relative;
   right: 10px;
   display: flex;
@@ -48,73 +53,74 @@ nav{
   width: 40%;
   height: 45px;
 }
-
-/* ////////////////////////////// */
-
-/* Main */
-main{
-  position: absolute;
-  top: 100px;
+body header nav p {
+  -webkit-text-decoration: green wavy underline;
+          text-decoration: green wavy underline;
+}
+body main {
+  background: var(--bg);
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
   display: flex;
-  order: 2;
   flex-direction: column;
-  align-items: center;
-  width: 60vw;
-  background-color: var(--bg_d1);
+  position: relative;
 }
-
-#oque_e{
-  width: 90%;
-  height: 562px;
-  border-bottom: solid var(--primary) 2px;
+body main #oque_e {
+  width: 55%;
+  min-height: 60vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 2vw;
+  border-bottom: 2px solid var(--primary_d1);
+  margin: 60px 2.5% 0 2.5%;
 }
-#oque_e #img1{
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  width: 21%;
-}
-#oque_e h1{
+body main #oque_e h1 {
+  width: 70%;
   font-family: "Courier New", Courier, monospace;
-  position: absolute;
-  top: 0px;
-  left: 0px;
   text-align: center;
-  font-size: 2em;
+  font-size: 3vw;
   word-spacing: 7px;
-  width: 76%;
+  padding: 0.5vh 0;
+  margin-bottom: 5vh;
 }
-#oque_e #p1{
+body main #oque_e p {
+  width: 70%;
+  margin: 1vh 0;
+  line-height: 2.5vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 0.75vw;
+}
+body main #oque_e #cruz {
   position: absolute;
-  top: 30px;
-  left: 0px;
-  text-align: justify;
-  width: 76%;
+  right: 2vw;
+  top: 2vw;
+  width: 25%;
 }
-#oque_e #p2{
+body main #oque_e #aling_right {
+  margin-left: auto;
+}
+body main #oque_e::before, body main #oque_e::after {
+  content: "";
+  width: 0.75vw;
+  height: 0.75vw;
   position: absolute;
-  top: 140px;
-  left: 0px;
-  text-align: justify;
-  width: 76%;
+  border-radius: 50%;
+  bottom: -0.85vh;
+  left: -0.75vw;
+  border: 2px solid var(--primary_d1);
 }
-#oque_e #p3{
-  position: absolute;
-  top: 200px;
-  right: 0px;
-  text-align: justify;
-  width: 76%;
+body main #oque_e::after {
+  left: auto;
+  right: -0.75vw;
 }
-
-/* ////////////////////////////// */
-
-/* ASIDE */
-
-aside{
+body main aside {
+  width: 40vw;
+  height: calc(100vh - 60px);
   position: fixed;
   top: 60px;
   right: 0px;
-  width: 40vw;
-  height: 100vh;
   background-color: var(--primary_d1);
-}
+}/*# sourceMappingURL=style.css.map */
