@@ -73,29 +73,28 @@ main #conteudo section{
 
 
 #oque_e #img1{
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  width: 21%;
+  width: 20%;
 }
 #oque_e h1{
   font-family: "Courier New", Courier, monospace;
   text-align: center;
-  font-size: 2em;
-  word-spacing: 7px;
-  width: 76%;
+  font-size: 2vw;
+  letter-spacing: 7px;
+  width: 75%;
+  margin-bottom: 25px;
 }
 #oque_e #p1{
   text-align: justify;
-  width: 76%;
+  width: 75%;
 }
 #oque_e #p2{
   text-align: justify;
-  width: 76%;
+  width: 75%;
 }
 #oque_e #p3{
+  align-self: end;
   text-align: justify;
-  width: 76%;
+  width: 75%;
 }
 
 /* ////////////////////////////// */
