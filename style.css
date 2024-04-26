@@ -51,7 +51,6 @@ main{
   display: flex;
   flex-direction: column;
   width: 100vw;
-  background-color: var(--bg_d1);
 }
 
 #oque_e{
