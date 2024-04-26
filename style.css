@@ -51,6 +51,7 @@ main{
   display: flex;
   flex-direction: column;
   width: 100vw;
+  margin-top: 60px;
 }
 
 
