@@ -53,6 +53,23 @@ main{
   width: 100vw;
 }
 
+
+/* Conteúdo */
+main #conteudo{
+  display: flex
+  flex-direction: column;
+  justify-content: center;
+  width: 70vw;
+  padding: 0 5vw;
+}
+main #conteudo section{
+  display: flex
+  width: 80%
+  border-bottom: solid 2px var(--primary)
+  background-color: var(--bg_d1)
+}
+
+
 #oque_e{
   display: flex
   width: 90%;
