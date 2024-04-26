@@ -66,16 +66,12 @@ main #conteudo section{
   display: flex
   width: 80%
   border-bottom: solid 2px var(--primary)
+  margin-bottom: 50px;
   background-color: var(--bg_d1)
 }
 
 
-#oque_e{
-  display: flex
-  width: 90%;
-  height: 562px;
-  margin-top: 60px;
-}
+
 #oque_e #img1{
   position: absolute;
   right: 0px;
