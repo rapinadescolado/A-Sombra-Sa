@@ -8,13 +8,6 @@
   #logo_div{width: 48px;}
   #text_logo{display: none;}
 
-
-  /* Main */
-  main{
-    align-self: center;
-    width: 80vw;
-    font-size: 0.8em;
-  }
   /* ASIDE */
   aside{display: none;}
 }
