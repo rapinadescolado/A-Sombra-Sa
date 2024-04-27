@@ -1,7 +1,7 @@
 body{
   width: 100vw;
   margin: 0px;
-  background: var(--bg);
+  background-color: var(--bg);
 }
 
 
@@ -66,9 +66,9 @@ main #conteudo{
 main #conteudo section{
   display: flex
   width: 80%
-  border-bottom: solid 2px var(--primary)
+  border-bottom: solid 2px var(--primary);
   margin-bottom: 50px;
-  background-color: var(--bg_d1)
+  background-color: var(--bg_d1);
 }
 
 
