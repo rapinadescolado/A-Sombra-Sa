@@ -57,15 +57,15 @@ main{
 
 /* Conteúdo */
 main #conteudo{
-  display: flex
+  display: flex;
   flex-direction: column;
   justify-content: center;
   width: 70vw;
   padding: 0 5vw;
 }
 main #conteudo section{
-  display: flex
-  width: 80%
+  display: flex;
+  width: 80%;
   border-bottom: solid 2px var(--primary);
   margin-bottom: 50px;
   background-color: var(--bg_d1);
