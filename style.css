@@ -65,7 +65,7 @@ main #conteudo{
 }
 main #conteudo section{
   display: flex;
-  
+  flex-wrap: nowrap;
   width: 80%;
   border-bottom: solid 2px var(--primary);
   margin-bottom: 50px;
