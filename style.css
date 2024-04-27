@@ -65,6 +65,7 @@ main #conteudo{
 }
 main #conteudo section{
   display: flex;
+  
   width: 80%;
   border-bottom: solid 2px var(--primary);
   margin-bottom: 50px;
@@ -93,7 +94,7 @@ main #conteudo section{
   width: 75%;
 }
 #oque_e #p3{
-  align-self: end;
+  justify-self: flex-end;
   text-align: justify;
   width: 75%;
 }
