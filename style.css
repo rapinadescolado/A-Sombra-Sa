@@ -1,3 +1,31 @@
+/* Color Vars */
+:root{
+  --primary: rgb(224, 194, 110); /* #E0C26E */
+  --primary_d1: rgb(147, 133, 94); /* #93855E */
+  --primary_d2: rgb(83, 76, 40); /* #534C28 */
+  --secondary: rgb(140, 41, 36); /* #8C2924 */
+  --secondary_d1: rgb(96, 36, 33); /* #602421 */
+  --bg: rgb(23, 22, 20); /* #171614 */
+  --bg_d1: rgb(16, 15, 13); /* #100f0d */
+}
+
+/* Text Configs */
+h1, h2, h3, h4, h5, h6, main p{
+  color: #ffffff;
+  margin: 0px;
+}
+
+strong{
+  color: var(--secondary);
+}
+
+
+/* ////////////////////////////// */
+
+
+
+/* CSS */
+
 body{
   width: 100vw;
   margin: 0px;
@@ -45,7 +73,9 @@ nav{
   margin-right: 10px;
 }
 
+
 /* ////////////////////////////// */
+
 
 /* Main */
 main{
@@ -105,7 +135,9 @@ main #conteudo section{
   width: 75%;
 }
 
+
 /* ////////////////////////////// */
+
 
 /* ASIDE */
 
