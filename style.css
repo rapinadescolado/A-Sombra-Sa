@@ -62,10 +62,11 @@ main #conteudo{
   flex-direction: column;
   justify-content: center;
   width: 70vw;
+  margin-top: 60px;
+  outline: solid 2px red
 }
 main #conteudo section{
   display: flex;
-  flex-wrap: wrap;
   width: 80%;
   border-bottom: solid 2px var(--primary);
   margin-bottom: 50px;
