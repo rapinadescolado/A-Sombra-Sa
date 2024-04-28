@@ -99,7 +99,7 @@ main{
 main #conteudo{
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   width: 70vw;
   margin-top: 60px;
   outline: solid 2px red
