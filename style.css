@@ -100,7 +100,7 @@ main #conteudo section{
   width: 75%;
 }
 #oque_e #p3{
-  justify-self: end;
+  justify-self: flex-end;
   text-align: justify;
   width: 75%;
 }
