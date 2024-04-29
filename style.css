@@ -103,6 +103,7 @@ main #conteudo section{
   border-bottom: solid 2px var(--primary);
   margin-bottom: 50px;
   background-color: var(--bg_d1);
+  padding: 3%;
 }
 main #conteudo section h3{
   font-family: "Courier New", Courier, monospace;
@@ -116,25 +117,25 @@ main #conteudo section h3{
 #conteudo #oque_e #cruz{
   position: absolute;
   top: 0;
-  right: 0;
+  right: calc(0+3%);
   width: 20%;
 }
 #conteudo #oque_e h3{
-  max-width: 75%;
+  max-width: 70%;
   margin-bottom: 25px;
 }
 #conteudo #oque_e #p1{
   text-align: justify;
-  width: 75%;
+  width: 70%;
 }
 #conteudo #oque_e #p2{
   text-align: justify;
-  width: 75%;
+  width: 70%;
 }
 #conteudo #oque_e #p3{
   justify-self: flex-end;
   text-align: justify;
-  width: 75%;
+  width: 70%;
 }
 
 
