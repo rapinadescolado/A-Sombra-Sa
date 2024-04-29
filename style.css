@@ -93,7 +93,6 @@ main #conteudo{
   align-items: center;
   width: 70vw;
   margin-top: 60px;
-  outline: solid 2px red
 }
 main #conteudo section{
   position: relative;
@@ -108,7 +107,7 @@ main #conteudo section{
 main #conteudo section h3{
   font-family: "Courier New", Courier, monospace;
   text-align: center;
-  font-size: 2vw;
+  font-size: 2em;
   letter-spacing: 7px;
 }
 
