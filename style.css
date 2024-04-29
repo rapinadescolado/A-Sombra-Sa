@@ -108,7 +108,7 @@ main #conteudo section{
 main #conteudo section h3{
   font-family: "Courier New", Courier, monospace;
   text-align: center;
-  font-size: 2em;
+  font-size: 2vw;
   letter-spacing: 7px;
 }
 
