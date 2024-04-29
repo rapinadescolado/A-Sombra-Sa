@@ -17,6 +17,12 @@
   main #conteudo{
     width: 100vw;
   }
+  main #conteudo section h3{
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  font-size: 1.8em;
+  letter-spacing: 4px;
+}
   
   
   #conteudo #oque_e #cruz{
