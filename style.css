@@ -10,11 +10,6 @@
 }
 
 /* Text Configs */
-h1, h2, h3, h4, h5, h6, main p{
-  color: #ffffff;
-  margin: 0px;
-}
-
 strong{
   color: var(--secondary);
 }
@@ -109,32 +104,30 @@ main #conteudo section h3{
   text-align: center;
   font-size: 2em;
   letter-spacing: 7px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+main #conteudo section p{
+  text-align: justify;
+  font-size: 1em;
+  color: #fff;
+  margin-bottom: 16px;
 }
 
 
-
+/*O que é A Sombra Sã*/
 #conteudo #oque_e #cruz{
   position: absolute;
   top: 3%;
   right: 3%;
   width: 20%;
 }
-#conteudo #oque_e h3{
-  width: 70%;
-  margin-bottom: 25px;
-}
-#conteudo #oque_e #p1{
-  text-align: justify;
-  width: 70%;
-}
-#conteudo #oque_e #p2{
-  text-align: justify;
+#conteudo #oque_e h3,
+#conteudo #oque_e p{
   width: 70%;
 }
 #conteudo #oque_e #p3{
   justify-self: flex-end;
-  text-align: justify;
-  width: 70%;
 }
 
 
