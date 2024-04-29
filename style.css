@@ -103,7 +103,7 @@ main #conteudo section{
   border-bottom: solid 2px var(--primary);
   margin-bottom: 50px;
   background-color: var(--bg_d1);
-  border-radius: 10px 10px 0 0;
+  border-radius: 15px 15px 0 0;
   padding: 3%;
 }
 main #conteudo section h3{
