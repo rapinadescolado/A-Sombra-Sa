@@ -8,6 +8,18 @@
   #logo_div{width: 48px;}
   #text_logo{display: none;}
 
+
+  /* ////////////////////////////// */
+
+
+  /*Conteudo*/
+
+  align-items: center;
+
+
+  /* ////////////////////////////// */
+
+
   /* ASIDE */
   aside{display: none;}
 }
