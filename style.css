@@ -113,25 +113,25 @@ main #conteudo section h3{
 
 
 
-#oque_e #img1{
+#conteudo #oque_e #cruz{
   position: absolute;
   top: 0;
   right: 0;
   width: 20%;
 }
-#oque_e h3{
+#conteudo #oque_e h3{
   max-width: 75%;
   margin-bottom: 25px;
 }
-#oque_e #p1{
+#conteudo #oque_e #p1{
   text-align: justify;
   width: 75%;
 }
-#oque_e #p2{
+#conteudo #oque_e #p2{
   text-align: justify;
   width: 75%;
 }
-#oque_e #p3{
+#conteudo #oque_e #p3{
   justify-self: flex-end;
   text-align: justify;
   width: 75%;
