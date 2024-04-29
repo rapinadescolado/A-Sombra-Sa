@@ -104,6 +104,12 @@ main #conteudo section{
   margin-bottom: 50px;
   background-color: var(--bg_d1);
 }
+main #conteudo section h3{
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 7px;
+}
 
 
 
@@ -113,11 +119,7 @@ main #conteudo section{
   right: 0;
   width: 20%;
 }
-#oque_e h1{
-  font-family: "Courier New", Courier, monospace;
-  text-align: center;
-  font-size: 2em;
-  letter-spacing: 7px;
+#oque_e h3{
   max-width: 75%;
   margin-bottom: 25px;
 }
