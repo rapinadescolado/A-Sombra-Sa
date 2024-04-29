@@ -14,7 +14,9 @@
 
   /*Conteudo*/
 
-  align-items: center;
+  main #conteudo{
+    width: 100vw;
+  }
 
 
   /* ////////////////////////////// */
