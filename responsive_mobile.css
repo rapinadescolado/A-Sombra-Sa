@@ -33,12 +33,14 @@
     width: 100%;
   }
   #conteudo #oque_e #p1{
-    width: 50%
+    width: 55%;
   }
   #conteudo #oque_e #p2{
-    width: 100%
+    width: 100%;
   }
-
+  #conteudo #oque_e #p3{
+    width: 100%;
+  }
 
   /* ////////////////////////////// */
 
