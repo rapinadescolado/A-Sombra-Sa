@@ -19,12 +19,15 @@
   }
   
   
-  #counteudo #oque_e #cruz{
+  #conteudo #oque_e #cruz{
     top: 57px;
-    width: 25%;
+    width: 35%;
   }
-  #counteudo #oque_e #h3{
+  #conteudo #oque_e #h3{
     width: 100%;
+  }
+  #conteudo #oque_e #p1{
+    width: 50%
   }
 
 
