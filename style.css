@@ -121,7 +121,7 @@ main #conteudo section h3{
   width: 20%;
 }
 #conteudo #oque_e h3{
-  max-width: 70%;
+  width: 70%;
   margin-bottom: 25px;
 }
 #conteudo #oque_e #p1{
