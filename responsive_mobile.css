@@ -17,10 +17,11 @@
   main #conteudo{
     width: 100vw;
   }
-
-
+  
+  
   #counteudo #oque_e #cruz{
     top: 57px;
+    width: 25%;
   }
   #counteudo #oque_e #h3{
     width: 100%;
