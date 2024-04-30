@@ -101,7 +101,7 @@ main #conteudo section{
   flex-wrap: wrap;
   width: 80%;
   border-bottom: solid 2px var(--primary);
-  margin-bottom: 50px;
+  margin-bottom: 70px;
   background-color: var(--bg_d1);
   border-radius: 15px 15px 0 0;
   padding: 3%;
