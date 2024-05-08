@@ -58,14 +58,14 @@ header{
 header a{
   margin-left: 10px;
 }
-#logo_div{
+header a #logo_div{
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 232px;
   height: 45px;
 }
-header #logo_div img{
+header a #logo_div img{
   height: 100%;
 }
 
