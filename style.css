@@ -65,12 +65,12 @@ header a{
   width: 232px;
   height: 45px;
 }
-.logo{
+header #logo_div img{
   height: 100%;
 }
 
 /* NAV */
-nav{
+header nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,7 +78,7 @@ nav{
   height: 45px;
   margin-right: 10px;
 }
-#navbttn{
+header button{
   background: initial;
   width: 45px;
   height: 45px;
