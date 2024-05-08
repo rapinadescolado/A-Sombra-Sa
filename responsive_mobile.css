@@ -1,13 +1,17 @@
 /* RESPONSIVE WEB */
+
 /* MOBILE */
 @media only screen and (max-width: 479px){
-  /* Base */
   
-
+  /* Base */
+  .mobile_only{
+    display: block;
+  }
+  
+  
   /* HEADER */
   #logo_div{width: 48px;}
   #text_logo{display: none;}
-  #navbttn{display: flex;}
 
 
   /* ////////////////////////////// */
