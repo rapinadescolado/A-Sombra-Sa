@@ -14,7 +14,6 @@
   
   /* HEADER */
   #logo_div{width: 48px;}
-  #text_logo{display: none;}
 
 
   /* ////////////////////////////// */
@@ -56,9 +55,6 @@
   /* ////////////////////////////// */
 
 
-  /* ASIDE */
-  aside{display: none;}
-}
 
 
 /* MOBILE Landscape */ 
