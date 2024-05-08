@@ -7,6 +7,9 @@
   .mobile_only{
     display: block;
   }
+  .pc_only{
+    display: none;
+  }
   
   
   /* HEADER */
