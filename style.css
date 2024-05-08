@@ -79,12 +79,23 @@ header nav{
   margin-right: 10px;
 }
 header button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: initial;
   width: 45px;
   height: 45px;
   border: solid 2px var(--primary_d1);
   border-radius: 10px;
   margin-right: 10px;
+}
+header button ::before,
+header button ::after{
+  display: block;
+  width: 80%;
+  height: 15px;
+  border-top: solid 2px var(--primary_d2);
+  border-bottom: solid 2px var(--primary_d2);
 }
 
 
