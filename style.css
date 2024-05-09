@@ -89,8 +89,8 @@ header button{
   border-radius: 10px;
   margin-right: 10px;
 }
-header button ::before,
-header button ::after{
+header button::before,
+header button::after{
   content: "";
   width: 80%;
   height: 15px;
