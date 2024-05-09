@@ -13,7 +13,7 @@
   
   
   /* HEADER */
-  header #logo_div, header a{width: 48px;}
+  header a #logo_div{width: 48px;}
 
 
   /* ////////////////////////////// */
