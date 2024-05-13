@@ -92,10 +92,15 @@ header button{
 header button::before,
 header button::after{
   content: "";
+  display: block;
   width: 80%;
   height: 15px;
   border-top: solid 2px var(--primary_d2);
-  border-bottom: solid 2px var(--primary_d2);
+  border-bottom: solid 1px var(--primary_d2);
+}
+header button::after{
+  border-top: 1px;
+  border-bottom: 2px;
 }
 
 
