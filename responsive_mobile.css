@@ -41,6 +41,8 @@
   /* Oque é A Sombra Sã*/
   #conteudo #oque_e #cruz{
     position: relative;
+    top: 0;
+    right: 0;
     width: 35%;
     order: 3;
   }
