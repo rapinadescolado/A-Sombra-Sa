@@ -41,14 +41,19 @@
   /* Oque é A Sombra Sã*/
   #conteudo #oque_e #cruz{
     width: 35%;
+    order: 3;
+  }
+  #conteudo #oque_e h3{
+    order: 1;
   }
   #conteudo #oque_e #p1{
     width: 55%;
+    order: 2;
   }
-  #conteudo #oque_e h3,
   #conteudo #oque_e #p2,
   #conteudo #oque_e #p3{
     width: 100%;
+    order: 4;
   }
 
   /* ////////////////////////////// */
