@@ -151,9 +151,15 @@ main #conteudo section p{
   width: 20%;
   margin-left: auto;
   margin-bottom: auto;
-},
+  order: 2;
+}
+#conteudo #oque_e h3,
 #conteudo #oque_e p{
   width: 70%;
+  order: 3;
+}
+#conteudo #oque_e h3{
+  order: 1;
 }
 #conteudo #oque_e #p3{
   margin-left: auto;
