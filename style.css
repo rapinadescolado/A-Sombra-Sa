@@ -80,6 +80,7 @@ header nav{
 }
 header button{
   display: flex;
+  flex-wrap: wrap;
   justify-items: center;
   align-items: center;
   background: initial;
