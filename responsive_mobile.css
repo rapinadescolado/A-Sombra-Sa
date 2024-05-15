@@ -32,7 +32,6 @@
   header button::after{
     content: "";
     display: block;
-    position: relative;
     width: 80%;
     height: 12px;
     border-top: solid 3px var(--primary_d2);
