@@ -157,5 +157,6 @@ aside{
   width: 30vw;
   height: 100vh;
   background-color: var(--primary_d1);
+  transition: right 0.5 ease-out;
   z-index: 6;
 }
