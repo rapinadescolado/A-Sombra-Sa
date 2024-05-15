@@ -15,6 +15,31 @@
   /* HEADER */
   header a #logo_div{width: 48px;}
 
+  header button{
+    display: flex;
+    position: relative;
+    justify-items: center;
+    align-items: center;
+    background: none;
+    width: 45px;
+    height: 45px;
+    border: solid 2px var(--primary_d1);
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  header button::before,
+  header button::after{
+    content: "";
+    position: relative;
+    width: 80%;
+    height: 12px;
+    border-top: solid 3px var(--primary_d2);
+    border-bottom: solid 3px var(--primary_d2);
+  }
+  header button::after{
+    border-bottom: solid 3px var(--primary_d2);
+  }
+
 
   /* ////////////////////////////// */
 
