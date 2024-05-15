@@ -17,10 +17,6 @@
 
   header button{
     display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
     background: none;
     width: 45px;
     height: 45px;
@@ -28,21 +24,7 @@
     border-radius: 10px;
     margin-right: 10px;
   }
-  header button::before,
-  header button::after{
-    content: "";
-    display: block;
-    position: relative;
-    width: 80%;
-    height: 12px;
-    border-top: solid 3px var(--primary_d2);
-    border-bottom: solid 3px var(--primary_d2);
-  }
-  header button::after{
-    border-top: none;
-    border-bottom: solid 3px var(--primary_d2);
-  }
-
+  
 
   /* ////////////////////////////// */
 
