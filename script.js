@@ -1,3 +1,3 @@
 function menuToggle(){
-    document.getElementById('menu').style.right = 0
+    document.getElementById('menu').style.right = 0;
 }
