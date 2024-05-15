@@ -18,8 +18,7 @@
   header button{
     display: flex;
     position: relative;
-    justify-items: center;
-    align-items: center;
+    justify-content: center;
     align-content: center;
     background: none;
     width: 45px;
