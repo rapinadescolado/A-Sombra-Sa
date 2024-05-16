@@ -164,5 +164,7 @@ aside{
 aside #exit{
   width: 30px;
   height: 30px;
+  background-color: none;
+  border: solid 3px var(--bg_d1)
   margin-left: 10px;
 }
