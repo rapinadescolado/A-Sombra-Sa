@@ -67,9 +67,11 @@
   /* ASIDE */
 
   aside{
-  top: 0;
-  right: -100vw;
-  width: 100vw;
+    top: 0;
+    right: -100vw;
+    width: 100vw;
+    transition: right 0.5s;
+    z-index: 6;
   }
 
   aside button{
@@ -81,7 +83,7 @@
     height: 45px;
     border: solid 2px var(--primary_d1);
     border-radius: 10px;
-    z-index: 10;
+    transition: left 0.5s ease 0.1s;
   }
   aside button img{
     width: 100%;
