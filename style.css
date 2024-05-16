@@ -160,3 +160,9 @@ aside{
   transition: right 0.5s;
   z-index: 6;
 }
+
+aside #exit{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
