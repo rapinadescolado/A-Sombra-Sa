@@ -15,16 +15,16 @@
   /* HEADER */
   header a #logo_div{width: 48px;}
 
-  header button{
-    display: flex;
+  aside button{
+    position: absolute;
+    left: -10px;
     background: none;
     width: 45px;
     height: 45px;
     border: solid 2px var(--primary_d1);
     border-radius: 10px;
-    margin-right: 10px;
   }
-  header button img{
+  aside button img{
     width: 100%;
   }
   
