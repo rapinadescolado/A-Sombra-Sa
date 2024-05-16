@@ -17,6 +17,7 @@
 
   aside button{
     position: absolute;
+    top: 7.5px;
     left: -55px;
     background: none;
     width: 45px;
