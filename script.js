@@ -1,5 +1,5 @@
 function menuToggle(){
-    const menu = document.getElementById('menu')
+    const menu = document.getElementById('menu');
     if(menu.style.right != 0){
         menu.style.right = 0;
     }
