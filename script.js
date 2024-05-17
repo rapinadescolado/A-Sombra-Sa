@@ -11,10 +11,10 @@ function menuToggle(){
         menu.style.right = '-100vw';
         button.style.left = '-55px';
     }
-    if(buttontoggle == 0){
-        buttontoggle = 1;
+    if(buttontoggle == '0'){
+        buttontoggle = '1';
     }
     else{
-        buttontoggle = 0;
+        buttontoggle = '0';
     }
 }
