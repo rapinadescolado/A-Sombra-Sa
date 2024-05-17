@@ -1,7 +1,7 @@
 function menuToggle(){
     const menu = document.getElementById('menu');
     const button = document.getElementById('menubutton');
-    var buttontoggle = document.getElementById('exitmenubutton').style.opacity;
+    var buttontoggle = document.getElementById('exitbutton').style.opacity;
 
     if(menu.style.right =! '0'){
         menu.style.right = '0';
