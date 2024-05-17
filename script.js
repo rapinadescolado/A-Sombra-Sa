@@ -12,9 +12,9 @@ function menuToggle(){
         button.style.left = '-55px';
     }
     if(buttontoggle == 0){
-        buttontoggle = 1
+        buttontoggle = 1;
     }
     else{
-        buttontoggle = 0
+        buttontoggle = 0;
     }
 }
