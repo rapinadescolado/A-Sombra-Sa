@@ -87,7 +87,7 @@
   }
   aside button img{
     width: 100%;
-    transition: display 1s;
+    transition: opacity 0.5s;
   }
   aside #exitbutton_img{
     display: none;
