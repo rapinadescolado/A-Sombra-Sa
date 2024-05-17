@@ -83,11 +83,11 @@
     height: 45px;
     border: solid 2px var(--primary_d1);
     border-radius: 10px;
-    transition: left 0.5s;
+    transition: left 0.5s, border-color 0.5s;
   }
   aside button img{
     width: 100%;
-    transition: opacity 0.4;
+    transition: display 1s;
   }
   aside #exitbutton_img{
     display: none;
