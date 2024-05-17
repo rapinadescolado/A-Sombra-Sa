@@ -7,7 +7,7 @@ function menuToggle(toggle){
         button.style.left = 10px;
     }
     else{
-        menu.style.right = -100vw;
+        menu.style.right = '-100vw';
         button.style.left = -55px;
     }
 }
