@@ -1,6 +1,7 @@
 function menuToggle(){
     const menu = document.getElementById('menu');
     const button = document.getElementById('menubutton');
+    const buttontoggle = document.getElementById('exitmenubutton');
 
     if(menu.style.right =! '0'){
         menu.style.right = '0';
@@ -9,5 +10,7 @@ function menuToggle(){
     else{
         menu.style.right = '-100vw';
         button.style.left = '-55px';
+    }
+    if(){
     }
 }
