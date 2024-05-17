@@ -90,7 +90,7 @@
     transition: opacity 0.4;
   }
   aside #exitbutton_img{
-    opacity: 0;
+    display: none;
   }
 
 
