@@ -4,16 +4,16 @@ function menuToggle(){
     const buttonImg = document.getElementById('menubutton_img');
     const exitbuttonImg = document.getElementById('exitbutton_img')
 
-    if(menu.style.right != '0'){
+    if(menu.style.right == '-100vw'){
         menu.style.right = '0';
         button.style.left = '10px';
-        buttonImg.style.opacity = '0';
-        exitbuttonImg.style.opacity = '1';
+        buttonImg.style.display = 'none';
+        exitbuttonImg.style.display = 'block';
     }
     else{
         menu.style.right = '-100vw';
         button.style.left = '-55px';
-        buttonImg.style.opacity = '1';
-        exitbuttonImg.style.opacity = '0';
+        buttonImg.style.display = 'block';
+        exitbuttonImg.style.display = 'none';
     }
 }
