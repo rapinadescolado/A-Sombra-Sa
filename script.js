@@ -1,8 +1,8 @@
-function menuToggle(toggle){
+function menuToggle(){
     const menu = document.getElementById('menu');
     const button = document.getElementById('menubutton');
 
-    if(toggle == 'open'){
+    if(menu.style.right =! '0'){
         menu.style.right = '0';
         button.style.left = '10px';
     }
