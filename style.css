@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
 }
+*img{
+  pointer-events: none;
+}
 
 /* Color Vars */
 :root{
