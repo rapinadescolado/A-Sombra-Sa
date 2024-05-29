@@ -4,8 +4,13 @@
   margin: 0;
   padding: 0;
 }
-*img{
+img{
   pointer-events: none;
+}
+.anti-click{
+  width: 100%;
+  heigth: 100%;
+  background-color: red;
 }
 
 /* Color Vars */
